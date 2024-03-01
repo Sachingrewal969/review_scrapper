@@ -5386,3 +5386,49 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.113.209:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:werkzeug:172.16.113.209 - - [01/Mar/2024 18:48:00] code 400, message Bad request version ('\x9eh`e\x80\x97')
+INFO:werkzeug:172.16.113.209 - - [01/Mar/2024 18:48:00] "[31m[1m  ü|7ÅFÇTÆ¼X7¢ ]\x83\x83[gf\x9aD,`Øâ\x8c\x9eh`e\x80\x97 [0m" 400 -
+ERROR:werkzeug:172.16.113.209 - - [01/Mar/2024 18:48:00] code 400, message Bad request version ('\x06³Ù/OCøBúkë_è\x84\x0fv¦¸Ërd\x14£-*ùth\x00È\x8c\x0eÐTí)1\x87úÚ´S\x8bò')
+INFO:werkzeug:172.16.113.209 - - [01/Mar/2024 18:48:00] "[31m[1m Ì¥\x96\x8eTé«g\x85¼Ì×çÀF)/ÔIÖ\x9ahvÜÎø©AÛ c\x9d ¹±âzD\x9dÕq JZ~¬Må¹ìkÁüÕW»ÓÑ  êêÀ+À/À,À0Ì©Ì¨ÀÀ \x9c \x9d / 5 ­ªª     ÿ           h2http/1.1 #     þ ú   i  ùkò¾gÆ¤lgIÛ,\x96v\x85\x81$MÈd\x85\x8e\x85ÍZ¿[G Ðõ\x80\x9dai÷O&Y©öq²\x842G÷Vþ¸\x9b³Ù/OCøBúkë_è\x84v¦¸Ërd£-*ùth È\x8cÐTí)1\x87úÚ´S\x8bò[0m" 400 -
+INFO:werkzeug:172.16.113.209 - - [01/Mar/2024 18:48:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.113.209 - - [01/Mar/2024 18:48:05] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.16.113.209 - - [01/Mar/2024 18:48:05] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.16.113.209 - - [01/Mar/2024 18:48:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:HTTP Error 500: Internal Server Error
+INFO:werkzeug:172.16.113.209 - - [01/Mar/2024 18:49:55] "POST /review HTTP/1.1" 200 -
+INFO:root:log my final result []
+INFO:werkzeug:172.16.113.209 - - [01/Mar/2024 18:50:09] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.16.113.209 - - [01/Mar/2024 18:50:10] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.16.113.209 - - [01/Mar/2024 18:50:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.113.209 - - [01/Mar/2024 18:50:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.113.209 - - [01/Mar/2024 18:50:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.113.209 - - [01/Mar/2024 18:50:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:log my final result []
+INFO:werkzeug:172.16.113.209 - - [01/Mar/2024 18:50:58] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.16.113.209 - - [01/Mar/2024 18:50:58] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.16.113.209 - - [01/Mar/2024 18:50:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 18:52:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 18:52:42] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 18:52:42] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 18:52:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iphone15', 'Name': 'Mousam  Guha Roy', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': 'Very nice'}, {'Product': 'iphone15', 'Name': 'Ajin V', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'High quality camera\U0001f60d'}, {'Product': 'iphone15', 'Name': 'Prithivi Boruah', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Camera Quality Is Improved Loving It'}, {'Product': 'iphone15', 'Name': 'Sheetla Prasad Maurya', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'Best mobile phoneCamera quality is very nice Battery backup is very good Sound quality is amazing.'}, {'Product': 'iphone15', 'Name': 'mohit  yadav ', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Nice \u2764\ufe0f'}, {'Product': 'iphone15', 'Name': 'Talim (sk)', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'I love this phone. The camera is amazing: its I am so happy'}, {'Product': 'iphone15', 'Name': 'Rahul Shedge', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Totally happy!Camera 5Battery 5 Display 5Design 5'}, {'Product': 'iphone15', 'Name': 'Ankit  Verma ', 'Rating': '4', 'CommentHead': 'Really Nice', 'Comment': 'Awesome camra quality superb camra \U0001f60a'}, {'Product': 'iphone15', 'Name': 'Saurabh Gothwad', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Simply premium.'}, {'Product': 'iphone15', 'Name': 'Nikhil Kumar', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Switch from OnePlus to iPhone I am stunned with camera performance. Everything is perfect on  iPhone 15.'}, {'Product': 'iphone15', 'Name': 'Nikhil Kumar', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Switch from OnePlus to iPhone I am stunned with camera performance. Everything is perfect on  iPhone 15.'}]
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 18:52:59] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 18:52:59] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 18:52:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'googlepixel4a', 'Name': 'Wazahat Ali', 'Rating': '4', 'CommentHead': 'Delightful', 'Comment': 'Nice Phone'}, {'Product': 'googlepixel4a', 'Name': 'Vikram M', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Migrated from iPhone 14 to Pixel7a. Amazing Pixel is blockbuster and Photos are sharp. Display is amazing and buttery smooth. Battery backup is good with 50% consumption in half day at moderate usage and charges mobile with apple adapter at 20% in 30mins, wireless charging at 2% in 5 minutes. Have used Costar 33w fast charger to charge Pixel7a by 40% in 35 mins. Live Captions on voice call is great feature !!! Fingerprint unlocking using screen protector has issues and it works well only if w...'}, {'Product': 'googlepixel4a', 'Name': 'Vishal  Roy', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Google need to fix the battery issue and heating issue.Overall phone awesome'}, {'Product': 'googlepixel4a', 'Name': 'Suryakanta Prusty', 'Rating': '3', 'CommentHead': 'Good', 'Comment': "I'm using pixel since 4months, camera is awesome butIf you r interested in gaming and using device maximum times. then its not for you."}, {'Product': 'googlepixel4a', 'Name': 'Rohith  A S', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Nice design and colour camer is at its peak as far as now'}, {'Product': 'googlepixel4a', 'Name': 'Arnob Roy', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': "Reviewing after 6 days, purchased 2 Pixel 7a  (white and coral) in Big billion sale.Pros:excelllent build quality.display is bright enough in full sunlight.battery drops down to 30% end of the day which is more than enough for a average or higher average user. (AI optimizes battery as per user's usage)no network issue found yet .. call quality is very good till now as compared to pixel 4a.phones heats up during first set up but after andriod 14 update no such heavy heating observed.co..."}, {'Product': 'googlepixel4a', 'Name': 'Risha Kashyap ', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'A great camera phone. The colour science is pretty good. And the display is decent enough. But the night videos are not worth it. And it is not made for extensive gaming.'}, {'Product': 'googlepixel4a', 'Name': 'aditya  mandor', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': "Using it for two days now, I can see why people are complaining about the heating but I haven't bought it for gaming so not a problem for me, camera design build quality and os are perfect, the only complaint I have is that they should include screen protector in box as this is recent release and its not available anywhere in market also the 2 other accessories in box are completely useless. If anyone is looking for this details but 7 back cover fits fine and custom cut screen protector for S..."}, {'Product': 'googlepixel4a', 'Name': 'Masud Rana', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': 'Its extraordinary, something new, everything thing is good about this phone except the battery life'}, {'Product': 'googlepixel4a', 'Name': 'Avik Sarkar', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Camera and Pixel Experience'}, {'Product': 'googlepixel4a', 'Name': 'Avik Sarkar', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Camera and Pixel Experience'}]
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 18:53:44] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 18:53:44] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Mar/2024 18:53:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
